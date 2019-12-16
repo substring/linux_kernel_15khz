@@ -65,27 +65,27 @@ diff -Naur -x '*.rej' -x '*.orig' -x build -x awk_x86_64_defconfig linux-5.4_sto
 +                  368, 424, 0, 240, 242, 245, 261, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC) },
 +       /* 640x480@60.00 15.750 Khz */
-+       { DRM_MODE("640x480", DRM_MODE_TYPE_DRIVER, 13104, 640, 664,
++       { DRM_MODE("640x480i", DRM_MODE_TYPE_DRIVER, 13104, 640, 664,
 +                  728, 832, 0, 480, 484, 490, 525, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC | 
 +                       DRM_MODE_FLAG_INTERLACE) },
 +       /* 720x480@59.95 15.7369 Khz */
-+       { DRM_MODE("720x480", DRM_MODE_TYPE_DRIVER, 14856, 720, 752,
++       { DRM_MODE("720x480i", DRM_MODE_TYPE_DRIVER, 14856, 720, 752,
 +                  824, 944, 0, 480, 484, 490, 525, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC | 
 +                       DRM_MODE_FLAG_INTERLACE) },
 +       /* 768x576 15.6250 Khz */
-+       { DRM_MODE("768x576", DRM_MODE_TYPE_DRIVER, 15625, 768, 800,
++       { DRM_MODE("768x576i", DRM_MODE_TYPE_DRIVER, 15625, 768, 800,
 +                  872, 1000, 0, 576, 582, 588, 625, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC | 
 +                       DRM_MODE_FLAG_INTERLACE) },
 +       /* 800x600@50.00 15.725 Khz */
-+       { DRM_MODE("800x576", DRM_MODE_TYPE_DRIVER, 16354, 800, 832,
++       { DRM_MODE("800x576i", DRM_MODE_TYPE_DRIVER, 16354, 800, 832,
 +                  912, 1040, 0, 576, 584, 590, 629, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC | 
 +                       DRM_MODE_FLAG_INTERLACE) },
 +       /* 1024@768@40.00 16.300 Khz */
-+       { DRM_MODE("1024x768", DRM_MODE_TYPE_DRIVER, 21386, 1024, 1072,
++       { DRM_MODE("1024x768i", DRM_MODE_TYPE_DRIVER, 21386, 1024, 1072,
 +                  1168, 1312, 0, 768, 774, 780, 815, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC | 
 +                       DRM_MODE_FLAG_INTERLACE) },
@@ -103,12 +103,12 @@ diff -Naur -x '*.rej' -x '*.orig' -x build -x awk_x86_64_defconfig linux-5.4_sto
 +                  608, 680, 0, 384, 395, 399, 426, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC) },
 +       /* 800x600@60.00 24.990 Khz */
-+       { DRM_MODE("800x600", DRM_MODE_TYPE_DRIVER, 26989, 800, 880,
++       { DRM_MODE("800x600i", DRM_MODE_TYPE_DRIVER, 26989, 800, 880,
 +                  960, 1080, 0, 600, 697, 705, 833, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC | 
 +                       DRM_MODE_FLAG_INTERLACE) },
 +       /* 1024x768@50.00 24.975 Khz */
-+       { DRM_MODE("1024x768", DRM_MODE_TYPE_DRIVER, 34165, 1024, 1120,
++       { DRM_MODE("1024x768i", DRM_MODE_TYPE_DRIVER, 34165, 1024, 1120,
 +                  1216, 1368, 0, 768, 864, 872, 999, 0,
 +                  DRM_MODE_FLAG_NHSYNC | DRM_MODE_FLAG_NVSYNC | 
 +                       DRM_MODE_FLAG_INTERLACE) },
